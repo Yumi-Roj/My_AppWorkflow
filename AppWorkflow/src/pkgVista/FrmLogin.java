@@ -163,8 +163,8 @@ public class FrmLogin extends javax.swing.JFrame {
             this.dispose();
 
             JOptionPane.showMessageDialog(null, "Bienvenido\n Has ingresado satisfactoriamente al sistema", "Mensaje de bienvenida", JOptionPane.INFORMATION_MESSAGE);
-            FrmEjecucionProceso EjecucionProceso = new FrmEjecucionProceso();
-            EjecucionProceso.setVisible(true);
+            FrmActividadesPentiendes ActividadesPentiendes = new FrmActividadesPentiendes();
+            ActividadesPentiendes.setVisible(true);
             FrmLogin.this.dispose();
 
         }
