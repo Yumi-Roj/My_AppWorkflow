@@ -43,6 +43,7 @@ public class clsConecta {
             System.out.println("No se puede conectar");
         }
     }
+    
     public static Connection getConnection(){
     try{
         Class.forName("org.postgresql.Driver");
